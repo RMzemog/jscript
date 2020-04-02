@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-1">
+    <h2>Challange 1: Your Age in Days</h2>
+<div class="flex-box-container-1">
+<div>
+    <button class="btn btn-primary" onclick="ageInDays()">CLICK Me</button>
+</div>
+<div>
+    <button class="btn btn-danger" onclick="reset()">reset</button>
+</div>
+</div>
+<div class="flex-box-container-1">
+    <div id="flex-box-result"></div>
+
+</div>
+</div>
+<div class="container-2">
+    <h2>Challenge 2: Duck Generator</h2>
+    <button class="btn btn-success" id="cat-generate" onclick="generatecat()">DUCK</button>
+<div class="flex-box-container-2" id="flex-cat-gen">
+</div>
+</div>
+  <div class="container-3">
+      <h2>Challange 3: Rock, Paper, Scissors</h2>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+          <img id="rock" src="images.jpg" height="150" width="150" alt="" onclick="rpsGame(this)">
+          <img id="paper"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSE-xnhdaQEEsIoZBmKaDmXWjLxq1rlLDbBM0tGSGvNt7_ca_xH" height="150" width="150" alt="" onclick="rpsGame(this)">
+          <img id="scissors"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzz1uNG9TD-fT2YhZ1Zx5NZx1wPWnFWX87R7ve1Sn3J0oWbHN9" height="150" width="150" alt="" onclick="rpsGame(this)">
+        </div>
+  </div>
+    <script src="script.js"></script>  
+</body>
+</html>
